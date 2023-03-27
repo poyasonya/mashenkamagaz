@@ -1,0 +1,296 @@
+@font-face{
+     
+    font-family: 'Roboto';
+    src: url('fonts/Roboto/Roboto-Thin.ttf');
+}
+
+@font-face{
+     
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa/static/Comfortaa-Light.ttf');
+}
+
+body{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0;
+}
+
+/*Шапка-навигация*/
+.heder-wrapper{
+
+}
+
+.header-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Comfortaa;
+    font-size: 20px;
+    margin: 0 auto;
+    min-height: 60px;
+}
+
+.shop-name{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.shop-phone{
+    margin-top: 20px;
+}
+
+.call-info{
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+.call-img{
+    margin-top: 13px;
+    margin-right: 20px;
+}
+
+.navigation{
+    min-height: 81px;
+    background-color: #D3EAE0;
+}
+
+.tabs-wrapper{
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Roboto;
+}
+
+.sp-nav{
+    margin-top: 22px;
+}
+
+.sp-text{
+    font-size: 30px;
+}
+
+.nav-search{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-input{
+    width: 283px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.search-img{
+    margin-top: 10px;
+}
+
+.sp-text-active{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a:active,
+a:hover,
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Тело*/
+.main{
+    margin-bottom: 40px;
+}
+
+.main-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.shop-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-bottom: 7.63%;
+    margin-left: 7%;
+}
+
+.ClothesType{
+    padding-right: 9%;
+}
+
+.ClothesTypeName{
+    padding-top: 7%;
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Roboto;
+}
+
+.ClothesObject{
+    padding-left: 17px;
+}
+
+.ClothesObjectName{
+    padding-top: 7%;
+    list-style-type: none;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 200;
+}
+
+.img-clothes-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.clothes-block{
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    height: 26.8%;
+    margin-bottom: 1%;
+}
+
+.img-clothes{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.text-price{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.Clothes-text-wrapper{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family: Roboto;
+}
+
+.main-return-a{
+    display: flex;
+    font-size: 25px;
+    color: #6CADA5;
+}
+
+.main-text{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    padding-right: 6%;
+}
+
+/*
+Clothes exmpl
+*/
+
+.main-exmpl-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-exmpl-wrapper{
+    margin-top: 5%;
+}
+
+.img-exmpl{
+    min-height: 426px;
+    min-width: 388px;
+    height: 51%;
+    width: 31%;
+}
+
+.clothes-exmpl-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.exmpl-text1{
+    font-family: Roboto;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.exmpl-text2{
+    font-family: Roboto;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.exmpl-text{
+    font-family: Roboto;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.exmpl-vk-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #D3EAE0;
+    min-width: 534px;
+    min-height: 92px;
+    font-size: 20px;
+    text-align: start;
+    padding: 16px;
+    font-family: Roboto;
+}
+
+.exmpl-vk-span{
+    display: flex;
+    flex-direction: row;
+}
+
+.exmpl-vk-text{
+    padding-top: 10px;
+}
+
+/*Футер*/
+.footer-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 20px;
+    min-height: 75px;
+    background-color: #D3EAE0;
+}
+
+.sp-footer{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ft-img{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.ft-text{
+    margin-left: 20px;
+    margin-top: 23px;
+}
+
+#ft-left{
+    margin-right: 30px;
+}
